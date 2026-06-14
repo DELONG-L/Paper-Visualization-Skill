@@ -1,0 +1,178 @@
+{
+  "site": {
+    "title": "TODO: Exact paper title",
+    "short_title": "TODO: Short title",
+    "lang": "en",
+    "kicker": "2026 · research paper",
+    "subtitle": "TODO: One-sentence scope description",
+    "meta_description": "TODO: Search and social description",
+    "theme_color": "#faf9f5",
+    "canonical_url": "",
+    "og_url": "",
+    "og_image": "",
+    "alternates": [],
+    "brand_home_url": "#top",
+    "brand_aria_label": "Back to top",
+    "show_brand_mark": false,
+    "language_switch": {
+      "aria_label": "Language switch",
+      "links": []
+    },
+    "links": [
+      {
+        "label": "Paper PDF",
+        "href": "paper.pdf",
+        "primary": true
+      },
+      {
+        "label": "Preprint",
+        "href": "https://example.com/preprint"
+      },
+      {
+        "label": "BibTeX",
+        "href": "#citation"
+      }
+    ]
+  },
+  "authors": [
+    "TODO: Author One",
+    "TODO: Author Two"
+  ],
+  "affiliations": "TODO: Institution A · Institution B",
+  "hero_facts": [
+    {
+      "label": "Fact 1",
+      "value": "TODO"
+    },
+    {
+      "label": "Fact 2",
+      "value": "TODO"
+    },
+    {
+      "label": "Fact 3",
+      "value": "TODO"
+    }
+  ],
+  "hero_figure": {
+    "src": "assets/overview.png",
+    "alt": "TODO: Hero figure alt text",
+    "caption": "TODO: Hero figure caption"
+  },
+  "summary": {
+    "kicker": "Summary",
+    "nav_label": "Summary",
+    "title": "What this paper contributes",
+    "cards_layout": "feature-grid",
+    "cards": [
+      {
+        "label": "01",
+        "title": "TODO: Contribution one",
+        "body": "TODO"
+      },
+      {
+        "label": "02",
+        "title": "TODO: Contribution two",
+        "body": "TODO"
+      },
+      {
+        "label": "03",
+        "title": "TODO: Contribution three",
+        "body": "TODO"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "abstract",
+      "nav_label": "Abstract",
+      "kicker": "Abstract",
+      "title": "TODO: Section heading",
+      "theme": "soft",
+      "layout": "plain",
+      "paragraphs": [
+        "TODO: First paragraph",
+        "TODO: Second paragraph"
+      ]
+    },
+    {
+      "id": "framework",
+      "nav_label": "Framework",
+      "kicker": "Framework",
+      "title": "TODO: Core method or taxonomy",
+      "wide_heading": true,
+      "section_note": "TODO: One-sentence section framing note",
+      "theme": "plain",
+      "layout": "framework",
+      "figure": {
+        "src": "assets/framework.png",
+        "alt": "TODO: Figure alt text",
+        "caption": "TODO: Figure caption"
+      },
+      "equation": {
+        "label": "Formalization",
+        "value": "TODO",
+        "body": "TODO"
+      },
+      "cards": [
+        {
+          "label": "C",
+          "title": "TODO: Dimension one",
+          "body": "TODO"
+        },
+        {
+          "label": "pi",
+          "title": "TODO: Dimension two",
+          "body": "TODO"
+        }
+      ]
+    },
+    {
+      "id": "evaluation",
+      "nav_label": "Evaluation",
+      "kicker": "Evaluation",
+      "title": "TODO: Main empirical takeaway",
+      "wide_heading": true,
+      "layout": "stats",
+      "cards_layout": "stats",
+      "cards": [
+        {
+          "metric": "+00.0pp",
+          "title": "TODO: Best result",
+          "body": "TODO",
+          "variant": "good"
+        },
+        {
+          "metric": "-00.0pp",
+          "title": "TODO: Contrast result",
+          "body": "TODO",
+          "variant": "bad"
+        }
+      ],
+      "figure": {
+        "src": "assets/evaluation.png",
+        "alt": "TODO: Evaluation figure alt text",
+        "caption": "TODO: Evaluation figure caption"
+      },
+      "prose_large": true,
+      "paragraphs": [
+        "TODO: Explain why the empirical result matters.",
+        "TODO: Explain how to read the figure or benchmark."
+      ]
+    }
+  ],
+  "citation": {
+    "kicker": "Citation",
+    "nav_label": "Citation",
+    "title": "Cite the paper directly",
+    "note": "TODO: Citation note or publication-status note",
+    "button_label": "Copy BibTeX",
+    "copied_label": "Copied",
+    "error_label": "Copy failed",
+    "bibtex": "@article{todo2026paper,\n  title   = {TODO: Title},\n  author  = {TODO: Authors},\n  journal = {arXiv preprint arXiv:TODO},\n  year    = {2026}\n}"
+  },
+  "footer": {
+    "enabled": false,
+    "left": "Static paper visualization for the publication.",
+    "right": "Prepared as a portable static site package."
+  }
+}

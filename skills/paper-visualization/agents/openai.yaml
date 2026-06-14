@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paper Visualization"
+  short_description: "Build readable static paper visualizations"
+  default_prompt: "Use $paper-visualization to turn this paper into a readable static visualization site, optionally with bilingual routes."

@@ -2,19 +2,21 @@
 
 ## Goal
 
-Create a paper page that helps a reader answer these questions quickly:
+Create a paper visualization that helps a reader answer these questions quickly:
 
 1. What is the paper?
 2. Why does it matter?
 3. What are the main contributions?
-4. Which figure best explains the method or taxonomy?
+4. Which figure best explains the method, taxonomy, or system?
 5. Where is the PDF?
+
+If the page is bilingual, the same answers should remain easy to find in both routes.
 
 ## Readability-first rules
 
 - Show the real paper title in the hero.
 - Keep the subtitle to one sentence.
-- Put PDF and arXiv links on the first screen.
+- Put the PDF and primary paper/preprint links on the first screen.
 - Use 3-4 short fact blocks, not a dense metric wall.
 - Keep paragraphs short enough to scan.
 - Use figures to support claims, not as decoration.
@@ -43,7 +45,7 @@ Extract:
 - one-sentence subtitle describing the paper's scope
 - authors
 - affiliations
-- PDF and arXiv links
+- PDF and primary paper links
 
 ### Summary cards
 
@@ -64,6 +66,34 @@ Keep:
 - concrete nouns over hype
 - paper terminology intact when it matters
 
+## Layout selection
+
+Use the template's richer layouts deliberately:
+
+- `framework`: figure + formalization + definition cards
+- `lifecycle`: figure + staged timeline
+- `showcase`: wide figure + lenses + supporting figures
+- `stats`: metric band + figure + prose
+- `split`: one figure plus explanatory copy
+
+Do not force a paper into one layout family if the content does not justify it.
+
+If the paper needs stronger section-specific composition than the config schema provides cleanly, edit the generated HTML/CSS/JS directly and treat the starter template as a starting point, not a prison.
+
+## Bilingual guidance
+
+Use dual routes instead of a page-level language toggle when the site should publish both English and Chinese:
+
+- `docs/`
+- `docs/zh/`
+
+Guidelines:
+
+- keep formal author names unchanged unless the user explicitly wants localized names
+- keep paper titles unchanged unless the user explicitly wants translated titles
+- translate navigation, section labels, notes, and explanatory prose
+- adapt Chinese typography and spacing instead of reusing English rhythm blindly
+
 ## Design interpretation
 
 Use the warm editorial style as a constraint on tone, not as the main objective.
@@ -79,7 +109,7 @@ Bad uses of the style:
 
 - replacing the paper title with a slogan
 - oversized decorative hero blocks that push content below the fold
-- dark marketing panels that dominate academic content
+- visual motifs that dominate academic content
 
 ## Publication boundary
 
@@ -92,7 +122,9 @@ If the user does not want to expose LaTeX:
 
 Before publishing, verify:
 
-- all asset paths are relative and work under a GitHub Pages subpath
+- all asset paths are relative and survive subpath deployment
 - no source-only files leak into the release package
 - the citation block matches the public paper version
 - the page still reads well on a narrow viewport
+- bilingual routes, if present, cross-link correctly
+- canonical URLs, hreflang links, and `sitemap.xml` match the intended public path
