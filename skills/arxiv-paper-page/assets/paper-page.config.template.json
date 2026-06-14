@@ -1,0 +1,82 @@
+{
+  "site": {
+    "title": "TODO: Exact paper title",
+    "short_title": "TODO: Short title",
+    "kicker": "arXiv preprint · 2026 · systems paper",
+    "subtitle": "TODO: One-sentence scope description",
+    "links": [
+      { "label": "Paper PDF", "href": "paper.pdf", "primary": true },
+      { "label": "arXiv", "href": "https://arxiv.org/abs/TODO" },
+      { "label": "BibTeX", "href": "#citation" }
+    ]
+  },
+  "authors": [
+    "TODO: Author One",
+    "TODO: Author Two"
+  ],
+  "affiliations": "TODO: Institution A · Institution B",
+  "hero_facts": [
+    { "label": "Fact 1", "value": "TODO" },
+    { "label": "Fact 2", "value": "TODO" },
+    { "label": "Fact 3", "value": "TODO" }
+  ],
+  "hero_figure": {
+    "src": "assets/overview.png",
+    "alt": "TODO: Hero figure alt text",
+    "caption": "TODO: Hero figure caption"
+  },
+  "summary": {
+    "title": "What this paper contributes",
+    "cards": [
+      { "label": "01", "title": "TODO: Contribution one", "body": "TODO" },
+      { "label": "02", "title": "TODO: Contribution two", "body": "TODO" },
+      { "label": "03", "title": "TODO: Contribution three", "body": "TODO" }
+    ]
+  },
+  "sections": [
+    {
+      "id": "abstract",
+      "kicker": "Abstract",
+      "title": "TODO: Section heading",
+      "theme": "soft",
+      "paragraphs": [
+        "TODO: First paragraph",
+        "TODO: Second paragraph"
+      ],
+      "cards": []
+    },
+    {
+      "id": "framework",
+      "kicker": "Framework",
+      "title": "TODO: Core method or taxonomy",
+      "theme": "plain",
+      "paragraphs": [
+        "TODO: Explain the main abstraction"
+      ],
+      "highlights": ["TODO 1", "TODO 2"],
+      "figure": {
+        "src": "assets/framework.png",
+        "alt": "TODO: Figure alt text",
+        "caption": "TODO: Figure caption"
+      },
+      "figure_first": false,
+      "cards": [
+        {
+          "label": "Formalization",
+          "title": "TODO: Key formula or concept",
+          "body": "TODO",
+          "variant": "default"
+        }
+      ]
+    }
+  ],
+  "citation": {
+    "title": "Cite the paper directly",
+    "note": "TODO: Citation note",
+    "bibtex": "@article{todo2026paper,\n  title   = {TODO: Title},\n  author  = {TODO: Authors},\n  journal = {arXiv preprint arXiv:TODO},\n  year    = {2026}\n}"
+  },
+  "footer": {
+    "left": "Static project page for the paper.",
+    "right": "Prepared as a GitHub Pages-friendly public package."
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "arXiv Project Page"
+  short_description: "Build a paper page from arXiv material"
+  default_prompt: "Use $arxiv-paper-page to turn this arXiv paper into a GitHub Pages project page."
