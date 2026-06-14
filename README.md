@@ -1,4 +1,4 @@
-# arxiv-paper-page-skill
+# ArXiv Paper Page Skill
 
 Reusable Codex skill for turning an arXiv paper, local PDF, or paper workspace into a static GitHub Pages project page.
 
