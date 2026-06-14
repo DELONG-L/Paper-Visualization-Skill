@@ -59,3 +59,7 @@ Then fill the paper content in:
 - The generated site is static HTML/CSS/JS and GitHub Pages-friendly.
 - The visual direction is warm and editorial, but the primary goal is paper readability.
 - Google Scholar live citation counts are intentionally not included.
+
+## License
+
+This repository is licensed under the MIT License. See [LICENSE](/Users/muyi/Documents/arxiv-paper-page-skill/LICENSE).
