@@ -1,0 +1,115 @@
+{
+  "site": {
+    "title": "把论文讲清楚",
+    "short_title": "论文可视化",
+    "lang": "zh-CN",
+    "kicker": "交互式模板示例",
+    "subtitle": "从研究问题出发，用图示解释方法，让结论回到证据。",
+    "meta_description": "论文可视化模板的中英文交互式示例。",
+    "theme_color": "#faf9f5",
+    "canonical_url": "",
+    "og_url": "",
+    "og_image": "",
+    "alternates": [],
+    "brand_home_url": "#top",
+    "brand_aria_label": "Back to top",
+    "show_brand_mark": false,
+    "language_switch": {
+      "aria_label": "切换语言",
+      "links": [
+        {
+          "label": "EN",
+          "href": "../",
+          "active": false
+        },
+        {
+          "label": "中文",
+          "href": "./",
+          "active": true
+        }
+      ]
+    },
+    "links": [
+      {
+        "label": "查看方法",
+        "href": "#framework",
+        "primary": true
+      },
+      {
+        "label": "GitHub",
+        "href": "https://github.com/DELONG-L/Paper-Visualization-Skill"
+      }
+    ]
+  },
+  "authors": [],
+  "affiliations": "Paper Visualization Skill",
+  "hero_facts": [
+    {
+      "label": "交付方式",
+      "value": "静态网页"
+    },
+    {
+      "label": "语言",
+      "value": "中英双语"
+    },
+    {
+      "label": "内容来源",
+      "value": "模板示例"
+    }
+  ],
+  "summary": {
+    "kicker": "阅读路径",
+    "nav_label": "概览",
+    "title": "让读者看懂研究的三个问题",
+    "cards_layout": "feature-grid",
+    "cards": [
+      {
+        "label": "01",
+        "title": "研究什么？",
+        "body": "说明问题、使用情境与适用边界。"
+      },
+      {
+        "label": "02",
+        "title": "方法如何工作？",
+        "body": "用图示连接输入、方法和输出。"
+      },
+      {
+        "label": "03",
+        "title": "证据支持什么？",
+        "body": "给出来源，保留限定条件。"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "framework",
+      "nav_label": "方法",
+      "kicker": "从材料到解释",
+      "title": "一个清楚、可追溯的研究页面",
+      "layout": "plain",
+      "theme": "soft",
+      "paragraphs": [
+        "先核对原文中的问题、方法和结论，再选择适合内容的页面结构。配置驱动的模板提供起点，也可以直接调整 HTML、CSS 和 JavaScript。",
+        "本页展示模板功能，不代表真实论文或实验结果。正式研究页面应使用原论文、公开图表和可核对的引用。"
+      ]
+    }
+  ],
+  "citation": {
+    "kicker": "项目",
+    "nav_label": "引用",
+    "title": "引用工具，研究内容引用原论文",
+    "note": "这是软件引用示例。",
+    "button_label": "复制 BibTeX",
+    "copied_label": "已复制",
+    "error_label": "复制失败",
+    "bibtex": "@software{paper_visualization,\n  title = {Paper Visualization Skill},\n  url = {https://github.com/DELONG-L/Paper-Visualization-Skill}\n}"
+  },
+  "footer": {
+    "enabled": false
+  },
+  "hero_figure": {
+    "src": "../assets/reading-path-zh.svg",
+    "alt": "从原论文到解释，再到读者的阅读路径。",
+    "caption": "先建立问题、方法和证据之间的联系。"
+  }
+}

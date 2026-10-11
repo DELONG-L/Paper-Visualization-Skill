@@ -1,0 +1,115 @@
+{
+  "site": {
+    "title": "Make the research readable",
+    "short_title": "Paper Visualization",
+    "lang": "en",
+    "kicker": "Interactive template example",
+    "subtitle": "Start with the question. Explain the mechanism. Keep the evidence within reach.",
+    "meta_description": "A working bilingual example of the Paper Visualization template.",
+    "theme_color": "#faf9f5",
+    "canonical_url": "",
+    "og_url": "",
+    "og_image": "",
+    "alternates": [],
+    "brand_home_url": "#top",
+    "brand_aria_label": "Back to top",
+    "show_brand_mark": false,
+    "language_switch": {
+      "aria_label": "Language switch",
+      "links": [
+        {
+          "label": "EN",
+          "href": "./",
+          "active": true
+        },
+        {
+          "label": "中文",
+          "href": "zh/",
+          "active": false
+        }
+      ]
+    },
+    "links": [
+      {
+        "label": "Explore the approach",
+        "href": "#framework",
+        "primary": true
+      },
+      {
+        "label": "GitHub",
+        "href": "https://github.com/DELONG-L/Paper-Visualization-Skill"
+      }
+    ]
+  },
+  "authors": [],
+  "affiliations": "Paper Visualization Skill",
+  "hero_facts": [
+    {
+      "label": "Delivery",
+      "value": "Static web"
+    },
+    {
+      "label": "Languages",
+      "value": "EN + 中文"
+    },
+    {
+      "label": "Content",
+      "value": "Template demo"
+    }
+  ],
+  "summary": {
+    "kicker": "Reading path",
+    "nav_label": "Overview",
+    "title": "Three questions a reader should be able to answer",
+    "cards_layout": "feature-grid",
+    "cards": [
+      {
+        "label": "01",
+        "title": "What is the question?",
+        "body": "Explain the problem, operating context, and scope."
+      },
+      {
+        "label": "02",
+        "title": "How does it work?",
+        "body": "Connect inputs, mechanisms, and outputs with a readable diagram."
+      },
+      {
+        "label": "03",
+        "title": "What does the evidence support?",
+        "body": "Link the sources and retain the conditions behind each claim."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "framework",
+      "nav_label": "Approach",
+      "kicker": "From source to explanation",
+      "title": "A clear, traceable research page",
+      "layout": "plain",
+      "theme": "soft",
+      "paragraphs": [
+        "Read the source question, mechanism, and conclusions before choosing the page structure. Begin with the config-driven template, then adapt HTML, CSS, and JavaScript when the content calls for it.",
+        "This page demonstrates the template. It is not a research paper or an experimental result. A publication page should use the actual paper, public figures, and verifiable citations."
+      ]
+    }
+  ],
+  "citation": {
+    "kicker": "Project",
+    "nav_label": "Citation",
+    "title": "Cite the tool; attribute the research to its paper",
+    "note": "An example software citation.",
+    "button_label": "Copy BibTeX",
+    "copied_label": "Copied",
+    "error_label": "Copy failed",
+    "bibtex": "@software{paper_visualization,\n  title = {Paper Visualization Skill},\n  url = {https://github.com/DELONG-L/Paper-Visualization-Skill}\n}"
+  },
+  "footer": {
+    "enabled": false
+  },
+  "hero_figure": {
+    "src": "assets/reading-path-en.svg",
+    "alt": "A reading path from source through explanation to the reader.",
+    "caption": "Connect the question, mechanism, and evidence."
+  }
+}
