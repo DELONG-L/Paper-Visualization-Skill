@@ -20,6 +20,8 @@ Reusable Codex skill for turning a paper PDF, preprint page, or source workspace
 ## Install For Codex
 
 ```bash
+git clone https://github.com/DELONG-L/Paper-Visualization-Skill.git
+cd Paper-Visualization-Skill
 mkdir -p ~/.codex/skills
 cp -R skills/paper-visualization ~/.codex/skills/
 ```
