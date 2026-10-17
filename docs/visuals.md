@@ -15,9 +15,9 @@ Warm paper-white supports long-form reading, deep plum gives titles and links a 
 | [example-zh.png](previews/example-zh.png) | Actual screenshot of the current Chinese reading example / 当前中文阅读示例的真实截图 |
 | [example-en.jpg](previews/example-en.jpg) · [example-zh.jpg](previews/example-zh.jpg) | Earlier screenshots retained for existing links / 为既有链接保留的早期截图 |
 
-The covers use restrained sans-serif typography, open margins, and an annotated manuscript connected to question, method, and evidence. They are conceptual illustrations, not application screenshots or research results. The PNG previews are captured directly from the HTML examples at 1440 × 900. Their copies in `examples/reading-demo/site/assets/` support social previews.
+The covers use regular book-serif typography in English and upright Songti in Chinese, open margins, and an annotated manuscript connected to question, method, and evidence. They are conceptual illustrations, not application screenshots or research results. The PNG previews are captured directly from the HTML examples at 1440 × 900. Their copies in `examples/reading-demo/site/assets/` support social previews.
 
-封面使用克制的无衬线字形和舒展的留白，以论文批注连接问题、方法与证据，属于概念示意，不是应用截图或科研结果。PNG 预览直接截自 HTML 示例，尺寸为 1440 × 900。`examples/reading-demo/site/assets/` 中的对应副本用于社交预览。
+封面采用规整的英文书籍衬线体与中文宋体，保留舒展的留白，以论文批注连接问题、方法与证据，属于概念示意，不是应用截图或科研结果。PNG 预览直接截自 HTML 示例，尺寸为 1440 × 900。`examples/reading-demo/site/assets/` 中的对应副本用于社交预览。
 
 The annotated paper and small reading diagrams in the example use native HTML and CSS. The example content comes from the public [content workflow](../skills/paper-visualization/references/workflow.md), [config schema](../skills/paper-visualization/references/config-schema.md), and [skill instructions](../skills/paper-visualization/SKILL.md). It reports no experimental findings and uses no external photographs or private research material.
 
