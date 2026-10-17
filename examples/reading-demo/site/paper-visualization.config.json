@@ -3,14 +3,27 @@
     "title": "Make the research readable",
     "short_title": "Paper Visualization",
     "lang": "en",
-    "kicker": "Interactive template example",
-    "subtitle": "Start with the question. Explain the mechanism. Keep the evidence within reach.",
-    "meta_description": "A working bilingual example of the Paper Visualization template.",
-    "theme_color": "#faf9f5",
-    "canonical_url": "",
-    "og_url": "",
-    "og_image": "",
-    "alternates": [],
+    "kicker": "An interactive reading page",
+    "subtitle": "Start with the question. Follow the method. Keep the evidence within reach.",
+    "meta_description": "Explore an interactive, bilingual reading page from the Paper Visualization skill.",
+    "theme_color": "#f7f3ee",
+    "canonical_url": "https://delong-l.github.io/Paper-Visualization-Skill/",
+    "og_url": "https://delong-l.github.io/Paper-Visualization-Skill/",
+    "og_image": "https://delong-l.github.io/Paper-Visualization-Skill/assets/preview-en.png",
+    "alternates": [
+      {
+        "hreflang": "en",
+        "href": "https://delong-l.github.io/Paper-Visualization-Skill/"
+      },
+      {
+        "hreflang": "zh-CN",
+        "href": "https://delong-l.github.io/Paper-Visualization-Skill/zh/"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://delong-l.github.io/Paper-Visualization-Skill/"
+      }
+    ],
     "brand_home_url": "#top",
     "brand_aria_label": "Back to top",
     "show_brand_mark": false,
@@ -31,85 +44,141 @@
     },
     "links": [
       {
-        "label": "Explore the approach",
-        "href": "#framework",
+        "label": "Explore the reading path",
+        "href": "#reading-path",
         "primary": true
       },
       {
         "label": "GitHub",
         "href": "https://github.com/DELONG-L/Paper-Visualization-Skill"
       }
-    ]
+    ],
+    "twitter_card": "summary_large_image"
   },
   "authors": [],
-  "affiliations": "Paper Visualization Skill",
-  "hero_facts": [
-    {
-      "label": "Delivery",
-      "value": "Static web"
-    },
-    {
-      "label": "Languages",
-      "value": "EN + 中文"
-    },
-    {
-      "label": "Content",
-      "value": "Template demo"
-    }
-  ],
-  "summary": {
-    "kicker": "Reading path",
-    "nav_label": "Overview",
-    "title": "Three questions a reader should be able to answer",
-    "cards_layout": "feature-grid",
-    "cards": [
-      {
-        "label": "01",
-        "title": "What is the question?",
-        "body": "Explain the problem, operating context, and scope."
-      },
-      {
-        "label": "02",
-        "title": "How does it work?",
-        "body": "Connect inputs, mechanisms, and outputs with a readable diagram."
-      },
-      {
-        "label": "03",
-        "title": "What does the evidence support?",
-        "body": "Link the sources and retain the conditions behind each claim."
-      }
-    ]
-  },
-  "sections": [
-    {
-      "id": "framework",
-      "nav_label": "Approach",
-      "kicker": "From source to explanation",
-      "title": "A clear, traceable research page",
-      "layout": "plain",
-      "theme": "soft",
-      "paragraphs": [
-        "Read the source question, mechanism, and conclusions before choosing the page structure. Begin with the config-driven template, then adapt HTML, CSS, and JavaScript when the content calls for it.",
-        "This page demonstrates the template. It is not a research paper or an experimental result. A publication page should use the actual paper, public figures, and verifiable citations."
-      ]
-    }
-  ],
   "citation": {
     "kicker": "Project",
     "nav_label": "Citation",
-    "title": "Cite the tool; attribute the research to its paper",
-    "note": "An example software citation.",
+    "title": "Give the reader a source to return to.",
+    "note": "For a paper page, cite the original publication. This example provides a software citation for the tool itself.",
     "button_label": "Copy BibTeX",
-    "copied_label": "Copied",
-    "error_label": "Copy failed",
+    "copied_label": "BibTeX copied.",
+    "error_label": "Could not copy. Select the BibTeX text below.",
     "bibtex": "@software{paper_visualization,\n  title = {Paper Visualization Skill},\n  url = {https://github.com/DELONG-L/Paper-Visualization-Skill}\n}"
   },
-  "footer": {
-    "enabled": false
-  },
-  "hero_figure": {
-    "src": "assets/reading-path-en.svg",
-    "alt": "A reading path from source through explanation to the reader.",
-    "caption": "Connect the question, mechanism, and evidence."
+  "demo": {
+    "title": "Make the research readable",
+    "short": "Paper Visualization",
+    "subtitle": "Start with the question. Follow the method. Keep the evidence within reach.",
+    "description": "Explore an interactive, bilingual reading page from the Paper Visualization skill.",
+    "kicker": "An interactive reading page",
+    "primary": "Explore the reading path",
+    "note": "A software example based on public documentation. No experimental findings are presented.",
+    "facts": [
+      "Question → Method → Evidence",
+      "English + Chinese",
+      "Static web"
+    ],
+    "canvas": "The annotated paper",
+    "hint": "Select a passage",
+    "paper": "A reading path through research",
+    "labels": [
+      "Question",
+      "Method",
+      "Evidence"
+    ],
+    "excerpts": [
+      "Define the problem, context, and scope.",
+      "Connect inputs, mechanisms, and outputs.",
+      "Link each claim to the source that supports it."
+    ],
+    "notes": [
+      "A clear question gives the reader a reason to keep reading, with the setting and scope made explicit.",
+      "An explanation should connect what goes into the method with what it does and what comes out.",
+      "Keep the conditions and limitations beside the claim, with a route back to the original evidence."
+    ],
+    "source_button": "Why this matters ↗",
+    "nodes": [
+      "Input",
+      "Method",
+      "Output"
+    ],
+    "nav": [
+      "Reading path",
+      "Approach",
+      "Citation"
+    ],
+    "reading_title": "From the original paper to a clear explanation.",
+    "reading_intro": "A useful research page preserves the argument while giving readers a shorter route through it.",
+    "steps": [
+      [
+        "01 / Source",
+        "Start with the paper",
+        "Use the exact title, verified metadata, and the public paper or preprint. The original source anchors the page.",
+        "Read the workflow ↗"
+      ],
+      [
+        "02 / Explain",
+        "Make the method visible",
+        "Pair concise prose with representative figures. Keep the paper’s terminology and the conditions behind its conclusions.",
+        "Explore the layouts ↗"
+      ],
+      [
+        "03 / Return",
+        "Keep the source one click away",
+        "Connect the explanation to the primary paper and its citation, so the reader can examine the supporting detail.",
+        "See the citation ↗"
+      ]
+    ],
+    "approach_label": "02 / The approach",
+    "approach_title": "Clarity with the research still intact.",
+    "approach_text": "A visual reading page should help the reader understand the work and return to its sources. The layout follows the paper’s argument, figures, and scope.",
+    "scope": [
+      [
+        "The paper keeps its identity",
+        "Retain the paper’s actual title and formal author names, so readers can identify the original work."
+      ],
+      [
+        "Figures explain the argument",
+        "Use the paper’s public figures where they help the reader understand a method, taxonomy, or result."
+      ],
+      [
+        "The limits travel with the claim",
+        "Preserve uncertainty and conditions. A short web explanation should stay within what the paper establishes."
+      ]
+    ],
+    "cite_label": "03 / Attribution",
+    "cite_title": "Give the reader a source to return to.",
+    "cite_text": "For a paper page, cite the original publication. This example provides a software citation for the tool itself.",
+    "cite_button": "Copy BibTeX",
+    "copied": "BibTeX copied.",
+    "copy_error": "Could not copy. Select the BibTeX text below.",
+    "cite_type": "Software citation",
+    "cite_link": "Open the source repository ↗",
+    "footer": "Paper Visualization · Interactive example",
+    "license": "MIT licence",
+    "source_title": "Sources behind this example",
+    "source_intro": "The reading principles on this page come from the skill’s public documentation.",
+    "sources": [
+      [
+        "Content workflow",
+        "Exact titles, representative figures, faithful summaries, and public-source boundaries."
+      ],
+      [
+        "Configuration schema",
+        "Separate language routes, section layouts, metadata, figures, and citation fields."
+      ],
+      [
+        "Skill instructions",
+        "A structured starting point with the option to edit HTML, CSS, and JavaScript directly."
+      ]
+    ],
+    "source_note": "This is a software demonstration. It makes no claim about scientific effectiveness.",
+    "close": "Close sources",
+    "language": "Language",
+    "primary_nav": "Primary navigation",
+    "tablist": "Select a reading passage",
+    "back": "Back to top",
+    "github": "GitHub"
   }
 }

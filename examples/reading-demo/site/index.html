@@ -1,53 +1,44 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Make the research readable</title>
-  <meta name="description" content="A working bilingual example of the Paper Visualization template.">
-  <meta name="theme-color" content="#faf9f5">
-  <link rel="canonical" href="">
-
+  <meta name="description" content="Explore an interactive, bilingual reading page from the Paper Visualization skill.">
+  <meta name="theme-color" content="#f7f3ee">
+  <link rel="canonical" href="https://delong-l.github.io/Paper-Visualization-Skill/">
   <meta property="og:title" content="Make the research readable">
-  <meta property="og:description" content="A working bilingual example of the Paper Visualization template.">
+  <meta property="og:description" content="Explore an interactive, bilingual reading page from the Paper Visualization skill.">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-
-  <meta name="twitter:card" content="summary">
+  <meta property="og:url" content="https://delong-l.github.io/Paper-Visualization-Skill/">
+  <meta property="og:image" content="https://delong-l.github.io/Paper-Visualization-Skill/assets/preview-en.png">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Make the research readable">
-  <meta name="twitter:description" content="A working bilingual example of the Paper Visualization template.">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600;6..72,700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <meta name="twitter:description" content="Explore an interactive, bilingual reading page from the Paper Visualization skill.">
   <link rel="stylesheet" href="styles.css">
+  <link rel="alternate" hreflang="en" href="https://delong-l.github.io/Paper-Visualization-Skill/" data-generated="alternate">
+  <link rel="alternate" hreflang="zh-CN" href="https://delong-l.github.io/Paper-Visualization-Skill/zh/" data-generated="alternate">
+  <link rel="alternate" hreflang="x-default" href="https://delong-l.github.io/Paper-Visualization-Skill/" data-generated="alternate">
 </head>
-<body>
-  <header class="site-header">
-    <div class="shell topbar">
-      <a class="brand" href="#top" aria-label="Back to top" id="brand-link">
-        <span class="brand-mark" aria-hidden="true" hidden></span>
-        <span id="brand-title">Paper page</span>
-      </a>
-      <div class="topbar-end">
-        <nav class="nav-scroll" aria-label="Primary" id="nav-links"></nav>
-        <div class="lang-switch" aria-label="Language switch" id="lang-switch" hidden></div>
-      </div>
-    </div>
-  </header>
-
-  <main id="top">
-    <section class="hero" id="hero-root"></section>
-    <section class="section" id="summary-root"></section>
-    <div id="sections-root"></div>
-    <section class="section band-soft" id="citation"></section>
+<body id="top">
+  <header class="site-header"><div class="shell topbar">
+    <a class="brand serif" href="#top" aria-label="Back to top"><span class="brand-mark" aria-hidden="true"></span>Paper Visualization</a>
+    <div class="header-end"><nav class="nav-links" aria-label="Primary navigation"><a href="#reading-path">Reading path</a><a href="#approach">Approach</a><a href="#citation">Citation</a></nav><nav class="languages" aria-label="Language"><a href="./" data-language lang="en" aria-current="page">EN</a><a href="zh/" data-language lang="zh-CN" >中文</a></nav></div>
+  </div><div class="reading-progress" aria-hidden="true"></div></header>
+  <main>
+    <section class="hero"><div class="shell hero-grid">
+      <div class="hero-copy"><p class="eyebrow">An interactive reading page</p><h1>Make the research readable</h1><p class="lede">Start with the question. Follow the method. Keep the evidence within reach.</p><div class="hero-actions"><a class="button-primary" href="#reading-path">Explore the reading path<span aria-hidden="true">↓</span></a><a class="quiet-link" href="https://github.com/DELONG-L/Paper-Visualization-Skill">GitHub ↗</a></div><p class="hero-note">A software example based on public documentation. No experimental findings are presented.</p><div class="fact-line"><span>Question → Method → Evidence</span><span>English + Chinese</span><span>Static web</span></div></div>
+      <figure class="reading-canvas"><figcaption class="canvas-heading"><span>The annotated paper</span><span>Select a passage</span></figcaption><div class="paper-sheet"><p class="paper-heading serif">A reading path through research</p><div class="passage-list" role="tablist" aria-label="Select a reading passage" aria-orientation="vertical"><button class="passage" type="button" role="tab" id="passage-0" aria-selected="true" aria-controls="annotation-0" aria-label="Question" tabindex="0"><span class="passage-index">01</span><span><strong>Question</strong><small>Define the problem, context, and scope.</small></span><span class="passage-arrow" aria-hidden="true">↗</span></button><button class="passage" type="button" role="tab" id="passage-1" aria-selected="false" aria-controls="annotation-1" aria-label="Method" tabindex="-1"><span class="passage-index">02</span><span><strong>Method</strong><small>Connect inputs, mechanisms, and outputs.</small><span class="mechanism-mini" aria-hidden="true"><i>Input</i><b>→</b><i>Method</i><b>→</b><i>Output</i></span></span><span class="passage-arrow" aria-hidden="true">↗</span></button><button class="passage" type="button" role="tab" id="passage-2" aria-selected="false" aria-controls="annotation-2" aria-label="Evidence" tabindex="-1"><span class="passage-index">03</span><span><strong>Evidence</strong><small>Link each claim to the source that supports it.</small></span><span class="passage-arrow" aria-hidden="true">↗</span></button></div></div><div class="annotation" role="tabpanel" id="annotation-0" aria-labelledby="passage-0" tabindex="0" ><strong class="annotation-label">Question</strong><p>A clear question gives the reader a reason to keep reading, with the setting and scope made explicit.</p><button type="button" data-sources aria-label="Why this matters ↗">Why this matters ↗</button></div><div class="annotation" role="tabpanel" id="annotation-1" aria-labelledby="passage-1" tabindex="0" hidden><strong class="annotation-label">Method</strong><p>An explanation should connect what goes into the method with what it does and what comes out.</p><button type="button" data-sources aria-label="Why this matters ↗">Why this matters ↗</button></div><div class="annotation" role="tabpanel" id="annotation-2" aria-labelledby="passage-2" tabindex="0" hidden><strong class="annotation-label">Evidence</strong><p>Keep the conditions and limitations beside the claim, with a route back to the original evidence.</p><button type="button" data-sources aria-label="Why this matters ↗">Why this matters ↗</button></div></figure>
+    </div></section>
+    <section class="section" id="reading-path"><div class="shell"><div class="section-heading"><p class="section-index"><span>01</span>Reading path</p><div><h2>From the original paper to a clear explanation.</h2><p>A useful research page preserves the argument while giving readers a shorter route through it.</p></div></div><div class="steps"><article class="step"><p class="step-label">01 / Source</p><h3>Start with the paper</h3><div class="step-graphic"><div class="paper-stack" aria-hidden="true"><span class="mini-page"></span><span class="mini-page offset"></span></div><span class="small-tag">PDF / Preprint</span></div><p>Use the exact title, verified metadata, and the public paper or preprint. The original source anchors the page.</p><a href="https://github.com/DELONG-L/Paper-Visualization-Skill/blob/main/skills/paper-visualization/references/workflow.md" target="_blank" rel="noopener noreferrer">Read the workflow ↗</a></article><article class="step"><p class="step-label">02 / Explain</p><h3>Make the method visible</h3><div class="step-graphic"><span class="outline-node">Question</span><span aria-hidden="true">→</span><span class="outline-node">Method</span><span aria-hidden="true">→</span><span class="outline-node">Evidence</span></div><p>Pair concise prose with representative figures. Keep the paper’s terminology and the conditions behind its conclusions.</p><a href="https://github.com/DELONG-L/Paper-Visualization-Skill/blob/main/skills/paper-visualization/references/config-schema.md" target="_blank" rel="noopener noreferrer">Explore the layouts ↗</a></article><article class="step"><p class="step-label">03 / Return</p><h3>Keep the source one click away</h3><div class="step-graphic"><span class="reader-lines" aria-hidden="true"><i></i><i></i><i></i></span><span aria-hidden="true">↗</span><span class="small-tag">Original paper</span></div><p>Connect the explanation to the primary paper and its citation, so the reader can examine the supporting detail.</p><a href="#citation" >See the citation ↗</a></article></div></div></section>
+    <section class="section approach" id="approach"><div class="shell approach-grid"><div class="approach-copy"><p class="section-index">02 / The approach</p><h2>Clarity with the research still intact.</h2><p>A visual reading page should help the reader understand the work and return to its sources. The layout follows the paper’s argument, figures, and scope.</p></div><ol class="scope-list"><li><span class="scope-number">01</span><div><h3>The paper keeps its identity</h3><p>Retain the paper’s actual title and formal author names, so readers can identify the original work.</p></div></li><li><span class="scope-number">02</span><div><h3>Figures explain the argument</h3><p>Use the paper’s public figures where they help the reader understand a method, taxonomy, or result.</p></div></li><li><span class="scope-number">03</span><div><h3>The limits travel with the claim</h3><p>Preserve uncertainty and conditions. A short web explanation should stay within what the paper establishes.</p></div></li></ol></div></section>
+    <section class="section" id="citation"><div class="shell citation-grid"><div class="citation-copy"><p class="section-index">03 / Attribution</p><h2>Give the reader a source to return to.</h2><p>For a paper page, cite the original publication. This example provides a software citation for the tool itself.</p><a class="citation-link" href="https://github.com/DELONG-L/Paper-Visualization-Skill">Open the source repository ↗</a></div><div><div class="citation-box"><div class="citation-top"><span>Software citation</span><button class="copy-button" type="button" id="copy-citation" data-copied="BibTeX copied." data-error="Could not copy. Select the BibTeX text below.">Copy BibTeX</button></div><pre><code id="bibtex">@software{paper_visualization,
+  title = {Paper Visualization Skill},
+  url = {https://github.com/DELONG-L/Paper-Visualization-Skill}
+}</code></pre></div><p class="copy-status" role="status" id="copy-status" aria-live="polite"></p></div></div></section>
   </main>
-
-  <footer class="site-footer" id="site-footer" hidden>
-    <div class="shell footer-row" id="footer-root"></div>
-  </footer>
-
+  <footer class="site-footer"><div class="shell footer-row"><span>Paper Visualization · Interactive example</span><nav aria-label="Citation"><a href="https://github.com/DELONG-L/Paper-Visualization-Skill/blob/main/LICENSE">MIT licence</a><a href="https://github.com/DELONG-L/Paper-Visualization-Skill">GitHub ↗</a></nav></div></footer>
+  <dialog id="sources" aria-labelledby="source-title"><div class="dialog-top"><h2 id="source-title">Sources behind this example</h2><button type="button" class="dialog-close" id="close-sources" aria-label="Close sources">×</button></div><div class="dialog-body"><p>The reading principles on this page come from the skill’s public documentation.</p><ul class="source-list"><li><a href="https://github.com/DELONG-L/Paper-Visualization-Skill/blob/main/skills/paper-visualization/references/workflow.md" target="_blank" rel="noopener noreferrer">Content workflow ↗</a><p>Exact titles, representative figures, faithful summaries, and public-source boundaries.</p></li><li><a href="https://github.com/DELONG-L/Paper-Visualization-Skill/blob/main/skills/paper-visualization/references/config-schema.md" target="_blank" rel="noopener noreferrer">Configuration schema ↗</a><p>Separate language routes, section layouts, metadata, figures, and citation fields.</p></li><li><a href="https://github.com/DELONG-L/Paper-Visualization-Skill/blob/main/skills/paper-visualization/SKILL.md" target="_blank" rel="noopener noreferrer">Skill instructions ↗</a><p>A structured starting point with the option to edit HTML, CSS, and JavaScript directly.</p></li></ul><p class="dialog-note">This is a software demonstration. It makes no claim about scientific effectiveness.</p></div></dialog>
   <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,52 @@
+name: Publish reading example
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - examples/reading-demo/**
+      - LICENSE
+      - .github/workflows/pages.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: read
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v6
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Build bilingual example
+        run: |
+          node --check examples/reading-demo/site/script.js
+          node --check examples/reading-demo/site/zh/script.js
+          bash examples/reading-demo/scripts/sync_site_package.sh
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: examples/reading-demo/package
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

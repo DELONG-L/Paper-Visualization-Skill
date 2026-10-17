@@ -3,16 +3,29 @@
     "title": "把论文讲清楚",
     "short_title": "论文可视化",
     "lang": "zh-CN",
-    "kicker": "交互式模板示例",
+    "kicker": "可交互的论文阅读页",
     "subtitle": "从研究问题出发，用图示解释方法，让结论回到证据。",
-    "meta_description": "论文可视化模板的中英文交互式示例。",
-    "theme_color": "#faf9f5",
-    "canonical_url": "",
-    "og_url": "",
-    "og_image": "",
-    "alternates": [],
+    "meta_description": "体验论文可视化技能生成的中英文交互式阅读页面。",
+    "theme_color": "#f7f3ee",
+    "canonical_url": "https://delong-l.github.io/Paper-Visualization-Skill/zh/",
+    "og_url": "https://delong-l.github.io/Paper-Visualization-Skill/zh/",
+    "og_image": "https://delong-l.github.io/Paper-Visualization-Skill/assets/preview-zh.png",
+    "alternates": [
+      {
+        "hreflang": "en",
+        "href": "https://delong-l.github.io/Paper-Visualization-Skill/"
+      },
+      {
+        "hreflang": "zh-CN",
+        "href": "https://delong-l.github.io/Paper-Visualization-Skill/zh/"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://delong-l.github.io/Paper-Visualization-Skill/"
+      }
+    ],
     "brand_home_url": "#top",
-    "brand_aria_label": "Back to top",
+    "brand_aria_label": "返回顶部",
     "show_brand_mark": false,
     "language_switch": {
       "aria_label": "切换语言",
@@ -31,85 +44,141 @@
     },
     "links": [
       {
-        "label": "查看方法",
-        "href": "#framework",
+        "label": "探索阅读路径",
+        "href": "#reading-path",
         "primary": true
       },
       {
         "label": "GitHub",
         "href": "https://github.com/DELONG-L/Paper-Visualization-Skill"
       }
-    ]
+    ],
+    "twitter_card": "summary_large_image"
   },
   "authors": [],
-  "affiliations": "Paper Visualization Skill",
-  "hero_facts": [
-    {
-      "label": "交付方式",
-      "value": "静态网页"
-    },
-    {
-      "label": "语言",
-      "value": "中英双语"
-    },
-    {
-      "label": "内容来源",
-      "value": "模板示例"
-    }
-  ],
-  "summary": {
-    "kicker": "阅读路径",
-    "nav_label": "概览",
-    "title": "让读者看懂研究的三个问题",
-    "cards_layout": "feature-grid",
-    "cards": [
-      {
-        "label": "01",
-        "title": "研究什么？",
-        "body": "说明问题、使用情境与适用边界。"
-      },
-      {
-        "label": "02",
-        "title": "方法如何工作？",
-        "body": "用图示连接输入、方法和输出。"
-      },
-      {
-        "label": "03",
-        "title": "证据支持什么？",
-        "body": "给出来源，保留限定条件。"
-      }
-    ]
-  },
-  "sections": [
-    {
-      "id": "framework",
-      "nav_label": "方法",
-      "kicker": "从材料到解释",
-      "title": "一个清楚、可追溯的研究页面",
-      "layout": "plain",
-      "theme": "soft",
-      "paragraphs": [
-        "先核对原文中的问题、方法和结论，再选择适合内容的页面结构。配置驱动的模板提供起点，也可以直接调整 HTML、CSS 和 JavaScript。",
-        "本页展示模板功能，不代表真实论文或实验结果。正式研究页面应使用原论文、公开图表和可核对的引用。"
-      ]
-    }
-  ],
   "citation": {
     "kicker": "项目",
     "nav_label": "引用",
-    "title": "引用工具，研究内容引用原论文",
-    "note": "这是软件引用示例。",
+    "title": "让读者回到原始来源。",
+    "note": "论文页面应引用原始出版物。这里提供的是工具本身的软件引用。",
     "button_label": "复制 BibTeX",
-    "copied_label": "已复制",
-    "error_label": "复制失败",
+    "copied_label": "BibTeX 已复制。",
+    "error_label": "复制未成功，可以选择下方 BibTeX 文本。",
     "bibtex": "@software{paper_visualization,\n  title = {Paper Visualization Skill},\n  url = {https://github.com/DELONG-L/Paper-Visualization-Skill}\n}"
   },
-  "footer": {
-    "enabled": false
-  },
-  "hero_figure": {
-    "src": "../assets/reading-path-zh.svg",
-    "alt": "从原论文到解释，再到读者的阅读路径。",
-    "caption": "先建立问题、方法和证据之间的联系。"
+  "demo": {
+    "title": "把论文讲清楚",
+    "short": "论文可视化",
+    "subtitle": "从研究问题出发，用图示解释方法，让结论回到证据。",
+    "description": "体验论文可视化技能生成的中英文交互式阅读页面。",
+    "kicker": "可交互的论文阅读页",
+    "primary": "探索阅读路径",
+    "note": "以公开说明为来源的软件示例，不包含实验研究结果。",
+    "facts": [
+      "问题 → 方法 → 证据",
+      "中英双语",
+      "静态网页"
+    ],
+    "canvas": "带批注的论文",
+    "hint": "点击一段标注",
+    "paper": "一条读懂研究的路径",
+    "labels": [
+      "问题",
+      "方法",
+      "证据"
+    ],
+    "excerpts": [
+      "说明研究问题、使用情境与适用范围。",
+      "连接输入、方法机制与输出。",
+      "让每项结论对应支持它的来源。"
+    ],
+    "notes": [
+      "明确的问题能帮助读者理解研究为何重要，同时交代它适用的场景与范围。",
+      "方法解释应连接输入、处理机制与输出，让读者理解关键设计如何起作用。",
+      "在结论附近保留成立条件与局限，并提供回到原始证据的路径。"
+    ],
+    "source_button": "为什么这样组织 ↗",
+    "nodes": [
+      "输入",
+      "方法",
+      "输出"
+    ],
+    "nav": [
+      "阅读路径",
+      "组织方式",
+      "引用"
+    ],
+    "reading_title": "从原论文到清楚的解释",
+    "reading_intro": "好的研究页面保留完整的论证关系，让读者能用更短的路径理解研究。",
+    "steps": [
+      [
+        "01 / 材料",
+        "从原论文开始",
+        "使用准确的论文标题、已核实的元数据和公开论文或预印本，让原始材料成为页面依据。",
+        "查看内容工作流 ↗"
+      ],
+      [
+        "02 / 解释",
+        "把方法呈现清楚",
+        "用简洁文字与代表性图表解释研究。保留论文术语，以及结论成立所需的条件。",
+        "了解页面布局 ↗"
+      ],
+      [
+        "03 / 回到来源",
+        "让依据始终可达",
+        "把解释连接到原论文及其引用，方便读者继续查看支持结论的细节。",
+        "查看引用 ↗"
+      ]
+    ],
+    "approach_label": "02 / 组织方式",
+    "approach_title": "讲得清楚，也保留研究原貌。",
+    "approach_text": "可视化阅读页应帮助读者理解研究，并回到原始材料。页面结构围绕论文的论证、图表与适用范围展开。",
+    "scope": [
+      [
+        "保留论文的身份",
+        "沿用论文的真实标题与正式作者姓名，方便读者识别原始研究。"
+      ],
+      [
+        "让图表服务于解释",
+        "在有助于理解方法、分类体系或结果的位置，使用论文中的公开图表。"
+      ],
+      [
+        "让边界与结论同行",
+        "保留不确定性与限定条件。简短的网页解释也不能超出原论文能够支持的范围。"
+      ]
+    ],
+    "cite_label": "03 / 引用",
+    "cite_title": "让读者回到原始来源。",
+    "cite_text": "论文页面应引用原始出版物。这里提供的是工具本身的软件引用。",
+    "cite_button": "复制 BibTeX",
+    "copied": "BibTeX 已复制。",
+    "copy_error": "复制未成功，可以选择下方 BibTeX 文本。",
+    "cite_type": "软件引用",
+    "cite_link": "打开来源仓库 ↗",
+    "footer": "论文可视化 · 互动示例",
+    "license": "MIT 许可证",
+    "source_title": "示例内容的来源",
+    "source_intro": "本页的阅读组织原则来自技能的公开说明。",
+    "sources": [
+      [
+        "内容工作流",
+        "准确的论文标题、代表性图表、忠实的摘要，以及公开内容的边界。"
+      ],
+      [
+        "配置格式",
+        "语言路由、页面布局、元数据、图表和引用字段。"
+      ],
+      [
+        "技能说明",
+        "先用结构化配置起步，也可以直接修改 HTML、CSS 和 JavaScript。"
+      ]
+    ],
+    "source_note": "本页属于软件演示，不构成科研效果的证据。",
+    "close": "关闭来源",
+    "language": "切换语言",
+    "primary_nav": "主导航",
+    "tablist": "选择阅读标注",
+    "back": "返回顶部",
+    "github": "GitHub"
   }
 }
